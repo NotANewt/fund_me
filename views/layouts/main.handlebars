@@ -28,6 +28,11 @@
       </div>
     </main>
 
+    <!-- Render script for logged in users only -->
+    {{#if loggedIn}}
+      <script src='/js/logout.js'></script>
+    {{/if}}
+
   </body>
 
 </html>
